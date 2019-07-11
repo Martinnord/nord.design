@@ -1,0 +1,70 @@
+{
+  "name": "react-advanced-numpad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.tsx\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martinnord/react-advanced-numpad.git"
+  },
+  "keywords": [
+    "react",
+    "numpad"
+  ],
+  "author": "Martin Nordström",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martinnord/react-advanced-numpad/issues"
+  },
+  "homepage": "https://github.com/Martinnord/react-advanced-numpad#readme",
+  "devDependencies": {
+    "@storybook/addon-info": "^4.1.0",
+    "@storybook/addon-knobs": "^4.1.0",
+    "@storybook/react": "^4.1.0",
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "@types/styled-components": "^4.1.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.15.3",
+    "source-map-loader": "^0.2.4",
+    "storybook-addon-jsx": "^6.0.0",
+    "ts-loader": "^5.3.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.2.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-middleware": "^3.4.0",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-hot-middleware": "^2.24.3"
+  },
+  "dependencies": {
+    "@types/react-portal": "^4.0.1",
+    "express": "^4.16.4",
+    "i": "^0.3.6",
+    "npm": "^6.4.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-portal": "^4.2.0",
+    "styled-components": "^4.1.2"
+  }
+}
