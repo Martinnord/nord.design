@@ -1,5 +1,5 @@
 {
-  "name": "react-advanced-numpad",
+  "name": "nord.design",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Martinnord/react-advanced-numpad.git"
+    "url": "git+https://github.com/Martinnord/nord.design.git"
   },
   "keywords": [
     "react",
@@ -31,9 +31,9 @@
   "author": "Martin Nordström",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Martinnord/react-advanced-numpad/issues"
+    "url": "https://github.com/Martinnord/nord.design/issues"
   },
-  "homepage": "https://github.com/Martinnord/react-advanced-numpad#readme",
+  "homepage": "https://github.com/Martinnord/nord.design#readme",
   "devDependencies": {
     "@storybook/addon-info": "^4.1.0",
     "@storybook/addon-knobs": "^4.1.0",
