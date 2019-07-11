@@ -1,1 +1,1 @@
-export { default as NumPad } from "./components/Numpad/NumPad";
+export { Button } from "./Atoms/Buttons/Button";

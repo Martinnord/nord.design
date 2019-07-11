@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import { storiesOf } from '@storybook/react';
-import { wInfo } from '../utils';
+import { storiesOf } from "@storybook/react";
+import { wInfo } from "../utils";
 
-storiesOf('Welcome', module).addWithJSX(
-  'to your new Storybook🎊',
+storiesOf("Nord Design System", module).addWithJSX(
+  "Introduction",
   wInfo(`
 
 
@@ -20,5 +20,5 @@ storiesOf('Welcome', module).addWithJSX(
     ### To use this Storybook
 
     Explore the panels on the left.
-  `)(() => <div>This is an example component</div>)
+  `)(() => <div>This is an example component</div>),
 );
