@@ -59,7 +59,7 @@
   "dependencies": {
     "@types/react-portal": "^4.0.1",
     "express": "^4.16.4",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "npm": "^6.4.1",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
